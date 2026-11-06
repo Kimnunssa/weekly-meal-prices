@@ -2,7 +2,7 @@
  "v": 1,
  "source": "한국소비자원 참가격",
  "surveyDay": "2026-10-23",
- "fetchedAt": "2026-11-06T08:15:21.053Z",
+ "fetchedAt": "2026-11-06T08:31:33.223Z",
  "items": {
   "egg": {
    "unitPrice": 632,
@@ -63,6 +63,11 @@
    "unitPrice": 10.267,
    "scope": "emart",
    "n": 122
+  },
+  "flour": {
+   "unitPrice": 1.65,
+   "scope": "emart",
+   "n": 123
   },
   "sausage": {
    "unitPrice": 16.633,
