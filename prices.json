@@ -2,7 +2,7 @@
  "v": 1,
  "source": "한국소비자원 참가격",
  "surveyDay": "2026-10-23",
- "fetchedAt": "2026-11-06T06:54:52.931Z",
+ "fetchedAt": "2026-11-06T08:15:21.053Z",
  "items": {
   "egg": {
    "unitPrice": 632,
@@ -58,6 +58,11 @@
    "unitPrice": 39.167,
    "scope": "emart",
    "n": 111
+  },
+  "crabstick": {
+   "unitPrice": 10.267,
+   "scope": "emart",
+   "n": 122
   },
   "sausage": {
    "unitPrice": 16.633,

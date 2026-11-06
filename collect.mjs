@@ -34,6 +34,7 @@ const MAP = {
   fishcake: { goods: [1216, 1217, 1825] },
   tuna: { goods: [1218, 1219, 1687, 572, 1688] },
   myeongran: { goods: [1449] },
+  crabstick: { goods: [1212, 1324, 1824] },
   sausage: { goods: [1256, 1608] },
   spam: { goods: [1263] },
   milk: { goods: [1258, 1388, 1389, 224, 1517] },
