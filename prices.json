@@ -1,0 +1,168 @@
+{
+ "v": 1,
+ "source": "한국소비자원 참가격",
+ "surveyDay": "2026-10-23",
+ "fetchedAt": "2026-11-06T06:54:52.931Z",
+ "items": {
+  "egg": {
+   "unitPrice": 632,
+   "scope": "emart",
+   "n": 113
+  },
+  "kimchi": {
+   "unitPrice": 9.368,
+   "scope": "emart",
+   "n": 124
+  },
+  "sprout": {
+   "unitPrice": 4.947,
+   "scope": "emart",
+   "n": 124
+  },
+  "danmuji": {
+   "unitPrice": 7.95,
+   "scope": "emart",
+   "n": 124
+  },
+  "tofu": {
+   "unitPrice": 5.267,
+   "scope": "emart",
+   "n": 122
+  },
+  "somen": {
+   "unitPrice": 3.867,
+   "scope": "emart",
+   "n": 124
+  },
+  "glassnoodle": {
+   "unitPrice": 11.6,
+   "scope": "emart",
+   "n": 124
+  },
+  "pasta": {
+   "unitPrice": 4.92,
+   "scope": "emart",
+   "n": 124
+  },
+  "fishcake": {
+   "unitPrice": 11.7,
+   "scope": "emart",
+   "n": 121
+  },
+  "tuna": {
+   "unitPrice": 28.471,
+   "scope": "emart",
+   "n": 124
+  },
+  "myeongran": {
+   "unitPrice": 39.167,
+   "scope": "emart",
+   "n": 111
+  },
+  "sausage": {
+   "unitPrice": 16.633,
+   "scope": "emart",
+   "n": 106
+  },
+  "spam": {
+   "unitPrice": 27.9,
+   "scope": "emart",
+   "n": 124
+  },
+  "milk": {
+   "unitPrice": 2.97,
+   "scope": "emart",
+   "n": 124
+  },
+  "cheese": {
+   "unitPrice": 24.667,
+   "scope": "emart",
+   "n": 124
+  },
+  "bacon": {
+   "unitPrice": 28.424,
+   "scope": "emart",
+   "n": 124
+  },
+  "duck": {
+   "unitPrice": 29.96,
+   "scope": "emart",
+   "n": 124
+  },
+  "bread": {
+   "unitPrice": 9.476,
+   "scope": "emart",
+   "n": 109
+  },
+  "porkbelly": {
+   "unitPrice": 31.84,
+   "scope": "national",
+   "n": 5
+  },
+  "porkneck": {
+   "unitPrice": 31.84,
+   "scope": "national",
+   "n": 5
+  },
+  "onion": {
+   "unitPrice": 2.489,
+   "scope": "national",
+   "n": 5
+  },
+  "radish": {
+   "unitPrice": 1.417,
+   "scope": "national",
+   "n": 4
+  },
+  "spinach": {
+   "unitPrice": 9.967,
+   "scope": "national",
+   "n": 3
+  },
+  "scallion": {
+   "unitPrice": 3.323,
+   "scope": "national",
+   "n": 5
+  },
+  "zucchini": {
+   "unitPrice": 3.3,
+   "scope": "national",
+   "n": 5
+  },
+  "cucumber": {
+   "unitPrice": 3.373,
+   "scope": "national",
+   "n": 4
+  },
+  "carrot": {
+   "unitPrice": 4.78,
+   "scope": "national",
+   "n": 5
+  },
+  "potato": {
+   "unitPrice": 3.98,
+   "scope": "national",
+   "n": 5
+  },
+  "sweetpotato": {
+   "unitPrice": 5.5,
+   "scope": "national",
+   "n": 5
+  },
+  "chili": {
+   "unitPrice": 19.625,
+   "scope": "national",
+   "n": 4
+  },
+  "kkaennip": {
+   "unitPrice": 33,
+   "scope": "national",
+   "n": 5
+  },
+  "salmon": {
+   "unitPrice": 65.8,
+   "scope": "national",
+   "n": 160
+  }
+ }
+}

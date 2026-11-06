@@ -1,0 +1,28 @@
+# 매일 아침 참가격을 조회해 조사일이 바뀌었을 때만 prices.json 을 커밋한다.
+# 키는 저장소 Settings → Secrets and variables → Actions 의 DATA_GO_KR 에만 둔다.
+name: collect-prices
+on:
+  schedule:
+    - cron: '0 21 * * *' # 한국 시간 매일 06:00
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node collect.mjs
+        env:
+          DATA_GO_KR: ${{ secrets.DATA_GO_KR }}
+      - name: commit
+        run: |
+          if git diff --quiet prices.json; then echo "no change"; exit 0; fi
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add prices.json
+          git commit -m "prices: $(node -p "require('./prices.json').surveyDay")"
+          git push
