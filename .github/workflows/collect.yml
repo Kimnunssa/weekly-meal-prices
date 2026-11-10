@@ -1,5 +1,6 @@
-# 매일 아침 참가격을 조회해 조사일이 바뀌었을 때만 prices.json 을 커밋한다.
-# 키는 저장소 Settings → Secrets and variables → Actions 의 DATA_GO_KR 에만 둔다.
+# 매일 아침 참가격 · KAMIS 를 조회해 값이 바뀌었을 때만 prices.json 을 커밋한다.
+# 키는 저장소 Settings → Secrets and variables → Actions 의 DATA_GO_KR · KAMIS_KEY 에만 둔다.
+# 이 파일은 깃허브 저장소 weekly-meal-prices 의 .github/workflows/collect.yml 에 올린다(앱 저장소에는 사본만 둠).
 name: collect-prices
 on:
   schedule:
@@ -18,11 +19,12 @@ jobs:
       - run: node collect.mjs
         env:
           DATA_GO_KR: ${{ secrets.DATA_GO_KR }}
+          KAMIS_KEY: ${{ secrets.KAMIS_KEY }}
       - name: commit
         run: |
           if git diff --quiet prices.json; then echo "no change"; exit 0; fi
           git config user.name "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
           git add prices.json
-          git commit -m "prices: $(node -p "require('./prices.json').surveyDay")"
+          git commit -m "prices: $(node -p "const p=require('./prices.json'); p.surveyDay + ' · KAMIS ' + (p.kamisDay || '-')")"
           git push
