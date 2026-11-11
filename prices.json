@@ -2,8 +2,8 @@
  "v": 1,
  "source": "한국소비자원 참가격 · KAMIS 농산물유통정보",
  "surveyDay": "2026-10-23",
- "kamisDay": "2026-11-09",
- "fetchedAt": "2026-11-10T03:19:06.867Z",
+ "kamisDay": "2026-11-10",
+ "fetchedAt": "2026-11-11T01:07:33.739Z",
  "items": {
   "kimchi": {
    "unitPrice": 9.368,
@@ -106,77 +106,77 @@
    "n": 160
   },
   "rice": {
-   "unitPrice": 3.489,
+   "unitPrice": 3.506,
    "scope": "kamis",
    "n": 1
   },
   "sweetpotato": {
-   "unitPrice": 4.053,
+   "unitPrice": 4.143,
    "scope": "kamis",
    "n": 1
   },
   "potato": {
-   "unitPrice": 3.37,
+   "unitPrice": 3.39,
    "scope": "kamis",
    "n": 1
   },
   "cabbage": {
-   "unitPrice": 2.348,
+   "unitPrice": 2.337,
    "scope": "kamis",
    "n": 1
   },
   "spinach": {
-   "unitPrice": 8.72,
+   "unitPrice": 8.81,
    "scope": "kamis",
    "n": 1
   },
   "ssamchae": {
-   "unitPrice": 10.4,
+   "unitPrice": 10.58,
    "scope": "kamis",
    "n": 1
   },
   "cucumber": {
-   "unitPrice": 4.211,
+   "unitPrice": 4.274,
    "scope": "kamis",
    "n": 1
   },
   "zucchini": {
-   "unitPrice": 5.66,
+   "unitPrice": 6.027,
    "scope": "kamis",
    "n": 1
   },
   "tomato": {
-   "unitPrice": 4.434,
+   "unitPrice": 4.339,
    "scope": "kamis",
    "n": 1
   },
   "radish": {
-   "unitPrice": 1.197,
+   "unitPrice": 1.192,
    "scope": "kamis",
    "n": 1
   },
   "carrot": {
-   "unitPrice": 4.705,
+   "unitPrice": 4.715,
    "scope": "kamis",
    "n": 1
   },
   "chili": {
-   "unitPrice": 11.07,
+   "unitPrice": 11.2,
    "scope": "kamis",
    "n": 1
   },
   "kkwari": {
-   "unitPrice": 14.24,
+   "unitPrice": 14.4,
    "scope": "kamis",
    "n": 1
   },
   "onion": {
-   "unitPrice": 1.969,
+   "unitPrice": 2.038,
    "scope": "kamis",
    "n": 1
   },
   "scallion": {
-   "unitPrice": 2.597,
+   "unitPrice": 2.603,
    "scope": "kamis",
    "n": 1
   },
@@ -186,22 +186,22 @@
    "n": 1
   },
   "eggplant": {
-   "unitPrice": 5.887,
+   "unitPrice": 6.08,
    "scope": "kamis",
    "n": 1
   },
   "minari": {
-   "unitPrice": 16.49,
+   "unitPrice": 16.59,
    "scope": "kamis",
    "n": 1
   },
   "kkaennip": {
-   "unitPrice": 28.7,
+   "unitPrice": 28.84,
    "scope": "kamis",
    "n": 1
   },
   "buchu": {
-   "unitPrice": 7.25,
+   "unitPrice": 7.34,
    "scope": "kamis",
    "n": 1
   },
@@ -211,32 +211,32 @@
    "n": 1
   },
   "napa": {
-   "unitPrice": 3.028,
+   "unitPrice": 3.166,
    "scope": "kamis",
    "n": 1
   },
   "broccoli": {
-   "unitPrice": 5.745,
+   "unitPrice": 5.675,
    "scope": "kamis",
    "n": 1
   },
   "mushroom": {
-   "unitPrice": 6.32,
+   "unitPrice": 6.26,
    "scope": "kamis",
    "n": 1
   },
   "enoki": {
-   "unitPrice": 3.353,
+   "unitPrice": 3.36,
    "scope": "kamis",
    "n": 1
   },
   "apple": {
-   "unitPrice": 6.572,
+   "unitPrice": 6.64,
    "scope": "kamis",
    "n": 1
   },
   "pear": {
-   "unitPrice": 4.931,
+   "unitPrice": 4.915,
    "scope": "kamis",
    "n": 1
   },
@@ -246,22 +246,22 @@
    "n": 1
   },
   "tangerine": {
-   "unitPrice": 3.886,
+   "unitPrice": 3.894,
    "scope": "kamis",
    "n": 1
   },
   "persimmon": {
-   "unitPrice": 6.158,
+   "unitPrice": 6.094,
    "scope": "kamis",
    "n": 1
   },
   "banana": {
-   "unitPrice": 2.85,
+   "unitPrice": 2.84,
    "scope": "kamis",
    "n": 1
   },
   "avocado": {
-   "unitPrice": 8.87,
+   "unitPrice": 8.84,
    "scope": "kamis",
    "n": 1
   },
@@ -271,42 +271,42 @@
    "n": 1
   },
   "porkbelly": {
-   "unitPrice": 27.68,
+   "unitPrice": 28.66,
    "scope": "kamis",
    "n": 1
   },
   "porkneck": {
-   "unitPrice": 25.91,
+   "unitPrice": 26.94,
    "scope": "kamis",
    "n": 1
   },
   "egg": {
-   "unitPrice": 326.517,
+   "unitPrice": 326.767,
    "scope": "kamis",
    "n": 2
   },
   "mackerel": {
-   "unitPrice": 13.427,
+   "unitPrice": 13.53,
    "scope": "kamis",
    "n": 1
   },
   "squid": {
-   "unitPrice": 15.572,
+   "unitPrice": 15.684,
    "scope": "kamis",
    "n": 1
   },
   "anchovy": {
-   "unitPrice": 33.16,
+   "unitPrice": 33.18,
    "scope": "kamis",
    "n": 1
   },
   "oyster": {
-   "unitPrice": 18.757,
+   "unitPrice": 18.789,
    "scope": "kamis",
    "n": 1
   },
   "kkotge": {
-   "unitPrice": 20.845,
+   "unitPrice": 20.267,
    "scope": "kamis",
    "n": 1
   }
